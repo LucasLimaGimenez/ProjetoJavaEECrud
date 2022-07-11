@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ChallengeSprint02 - The Excluded Four</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header class="cabecalho">
+		<h1 class="titulo-cabecalho">Challenge Sprint 02 - CRUD WEB</h1>
+		<h1 class="subtitulo">The Excluded Four</h1>
+	</header>
+
+	<main>
+
+		<h1 class="titulo-pagina">Informe os dados nos campos
+			corretamente!</h1>
+
+		<form class="formulario" action="alterarEmpresa" method="post">
+
+			<h2 class="arredondamento">Alterar Empresa</h2>
+
+			<div class="dados">
+				<label for="id_empresa">ID da empresa :</label> <input type="number"
+					class="input-text" id="id_empresa" name="id_empresa"
+					placeholder="Digite o ID da empresa" required min="0">
+			</div>
+			
+			<div class="dados">
+				<label for="id_app">ID do aplicativo :</label> <input type="number"
+					class="input-text" id="id_app" name="id_app"
+					placeholder="Digite o ID do aplicativo" required min="0">
+			</div>
+
+			<div class="dados">
+				<label for="nm_empresa">Nome da empresa :</label> <input type="text"
+					class="input-text" id="nm_empresa" name="nm_empresa"
+					placeholder="Digite o nome da empresa">
+			</div>
+
+			<div class="dados">
+				<label for="cnpj">CNPJ :</label> <input type="text"
+					class="input-text" id="cnpj" name="cnpj"
+					placeholder="Digite o CNPJ" required>
+			</div>
+
+			<div class="dados">
+				<label for="telefone">Telefone :</label> <input type="text"
+					class="input-text" id="telefone" name="telefone"
+					placeholder="Digite o telefone da empresa" required>
+			</div>
+
+
+			<input type="submit" class="input-enviar" name="acao" value="Enviar">
+		</form>
+
+
+		<div class="centralizando">
+			<p class="texto-box">
+				<a href="alterar.html" class="link-container">Voltar</a>
+			</p>
+
+		</div>
+
+
+	</main>
+
+</body>
+</html>

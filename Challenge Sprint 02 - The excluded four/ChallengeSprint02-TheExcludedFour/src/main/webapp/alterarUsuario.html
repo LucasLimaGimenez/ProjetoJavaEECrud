@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ChallengeSprint02 - The Excluded Four</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header class="cabecalho">
+		<h1 class="titulo-cabecalho">Challenge Sprint 02 - CRUD WEB</h1>
+		<h1 class="subtitulo">The Excluded Four</h1>
+	</header>
+
+	<main>
+
+		<h1 class="titulo-pagina">Informe os dados nos campos corretamente!</h1>
+		
+		<form class="formulario" action="alterarUsuario" method="post"> 
+        
+        <h2 class="arredondamento">Alterar Usuário</h2>
+        
+        <div class="dados">
+            <label for="id_app">ID do aplicativo :</label>
+            <input type="number" class="input-text" id="id_app" name="id_app" placeholder="Digite o ID do aplicativo" required min="0">
+        </div>
+        
+        <div class="dados">
+            <label for="id_usuario">ID do usuario :</label>
+            <input type="number" class="input-text" id="id_usuario" name="id_usuario" placeholder="Digite o ID do usuário" required min="0">
+        </div>
+        
+        <div class="dados">
+            <label for="nm_usuario">Nome do usuario :</label>
+            <input type="text" class="input-text" id="nm_usuario" name="nm_usuario" placeholder="Digite o nome do usuário">
+        </div>
+        
+        <div class="dados">
+            <label for="nr_celular">Número do celular do usuario :</label>
+            <input type="number" class="input-text" id="nr_celular" name="nr_celular" placeholder="Digite o número do celular do usuário" required min="0">
+        </div>
+
+        <div class="dados">
+            <label for="cpf">CPF :</label>
+            <input type="text" class="input-text" id="cpf" name="cpf" placeholder="Digite o CPF do usuário" required>
+        </div>  
+        
+        <div class="dados">
+            <label for="sexo">Sexo :</label>
+            <input type="text" class="input-text" id="sexo" name="sexo" placeholder="Digite o sexo do usuário" required>
+        </div>
+
+        <div class="dados">
+            <label for="grau_deficiencia_visual">Grau de deficiência :</label>
+            <input type="number" class="input-text" id="grau_deficiencia_visual" name="grau_deficiencia_visual" placeholder="Digite o grau de deficiência" required min="0">
+        </div>        
+                      
+
+        <input type="submit" class="input-enviar" name="acao" value="Enviar">
+    </form>
+
+		
+		<div class="centralizando">
+		<p class="texto-box">
+			<a href="alterar.html" class="link-container">Voltar</a>
+		</p>
+	
+		</div>
+
+
+	</main>
+
+</body>
+</html>

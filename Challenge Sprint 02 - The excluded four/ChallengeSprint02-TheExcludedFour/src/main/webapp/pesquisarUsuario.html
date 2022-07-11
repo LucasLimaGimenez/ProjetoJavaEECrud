@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ChallengeSprint02 - The Excluded Four</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header class="cabecalho">
+		<h1 class="titulo-cabecalho">Challenge Sprint 02 - CRUD WEB</h1>
+		<h1 class="subtitulo">The Excluded Four</h1>
+	</header>
+
+	<main>
+
+		<h1 class="titulo-pagina">Informe o ID do usuário no campo corretamente!</h1>
+		
+		<form class="formulario" action="pesquisarUsuario" method="post"> 
+        
+        <h2 class="arredondamento">Pesquisar Usuário</h2>
+        
+        <div class="dados">
+            <label for="id_usuario">ID do usuário :</label>
+            <input type="number" class="input-text" id="id_usuario" name="id_usuario" placeholder="Digite o ID do usuario" required min="0">
+        </div>       
+                      
+        <input type="submit" class="input-enviar" name="acao" value="Enviar">
+    </form>
+
+		
+		<div class="centralizando">
+		<p class="texto-box">
+			<a href="pesquisar.html" class="link-container">Voltar</a>
+		</p>
+	
+		</div>
+
+
+	</main>
+
+</body>
+</html>
